@@ -177,6 +177,7 @@
       <DependentUpon>201911270850185_Create201911271650.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\ActionLink.cs" />
     <Compile Include="Models\Classes.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -206,6 +207,7 @@
     <Compile Include="Models\Teachers.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Models\Websitelnfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -344,6 +346,7 @@
     <Content Include="Views\CourseManagements\Create.cshtml" />
     <Content Include="Views\CourseManagements\Edit.cshtml" />
     <Content Include="Views\CourseManagements\Delete.cshtml" />
+    <Content Include="Views\Shared\Partial1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
