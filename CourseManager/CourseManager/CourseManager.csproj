@@ -163,6 +163,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ActionLinkController.cs" />
     <Compile Include="Controllers\ClassController.cs" />
     <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\CourseManagementsController.cs" />
@@ -172,9 +173,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201911270850185_Create201911271650.cs" />
-    <Compile Include="Migrations\201911270850185_Create201911271650.Designer.cs">
-      <DependentUpon>201911270850185_Create201911271650.cs</DependentUpon>
+    <Compile Include="Migrations\201906300129130_20191218906.cs" />
+    <Compile Include="Migrations\201906300129130_20191218906.Designer.cs">
+      <DependentUpon>201906300129130_20191218906.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ActionLink.cs" />
@@ -347,6 +348,11 @@
     <Content Include="Views\CourseManagements\Edit.cshtml" />
     <Content Include="Views\CourseManagements\Delete.cshtml" />
     <Content Include="Views\Shared\Partial1.cshtml" />
+    <Content Include="Views\ActionLink\Index.cshtml" />
+    <Content Include="Views\ActionLink\Details.cshtml" />
+    <Content Include="Views\ActionLink\Create.cshtml" />
+    <Content Include="Views\ActionLink\Edit.cshtml" />
+    <Content Include="Views\ActionLink\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -359,8 +365,8 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201911270850185_Create201911271650.resx">
-      <DependentUpon>201911270850185_Create201911271650.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201906300129130_20191218906.resx">
+      <DependentUpon>201906300129130_20191218906.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
